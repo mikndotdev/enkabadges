@@ -71,6 +71,8 @@ export function BadgeBuilder() {
               <img
                 src={g.icon}
                 alt=""
+                width={28}
+                height={28}
                 className="size-7 shrink-0 rounded-full bg-white object-contain"
               />
               {g.name}
@@ -85,7 +87,6 @@ export function BadgeBuilder() {
               type="text"
               inputMode="numeric"
               autoComplete="off"
-              placeholder="e.g. 827014674"
               pattern={UID_PATTERN}
               maxLength={10}
               required

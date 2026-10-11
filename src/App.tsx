@@ -44,12 +44,23 @@ export function App() {
             <a className="link" href="https://shields.io">
               shields.io
             </a>
-            . A thingy from{" "}
-            <a className="link" href="https://mikn.dev">
-              MikanDev
-            </a>
-            .
           </p>
+          <a
+            href="https://mikn.dev"
+            className="flex items-center gap-1.5 text-sm font-semibold text-base-content"
+          >
+            <span>A</span>
+            <img
+              src="https://cdn.mikn.dev/branding/mikan-vtube.png"
+              alt="MikanDev"
+              width={2000}
+              height={700}
+              loading="lazy"
+              decoding="async"
+              className="h-6 w-auto"
+            />
+            <span>thing</span>
+          </a>
           <p>
             &copy; 2020-{new Date().getFullYear()} MikanDev. Not affiliated with Enka.Network or
             HoYoverse.

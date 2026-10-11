@@ -1,8 +1,12 @@
+import genshinIcon from "../assets/games/genshin.webp";
+import hsrIcon from "../assets/games/hsr.webp";
+import zzzIcon from "../assets/games/zzz.webp";
+
 export const GAMES = [
   {
     id: "genshin",
     name: "Genshin Impact",
-    icon: "/genshin.webp",
+    icon: genshinIcon,
     attributes: [
       { id: "ar", name: "Adventure Rank" },
       { id: "wl", name: "World Level" },
@@ -14,7 +18,7 @@ export const GAMES = [
   {
     id: "hsr",
     name: "Honkai: Star Rail",
-    icon: "/hsr.webp",
+    icon: hsrIcon,
     attributes: [
       { id: "tl", name: "Trailblaze Level" },
       { id: "eq", name: "Equilibrium Level" },
@@ -28,7 +32,7 @@ export const GAMES = [
   {
     id: "zzz",
     name: "Zenless Zone Zero",
-    icon: "/zzz.png",
+    icon: zzzIcon,
     attributes: [
       { id: "level", name: "Inter-Knot Level" },
       { id: "shiyu", name: "Shiyu Defense" },
