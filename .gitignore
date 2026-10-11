@@ -41,5 +41,7 @@ yarn-error.log*
 package-lock.json
 **/*.bun
 
-# Wrangler
-.wrangler
+# build
+.output
+.nitro
+dist

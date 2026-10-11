@@ -1,22 +1,32 @@
 {
-    "name": "elysia",
-    "version": "1.0.50",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "bun run --watch src/index.ts",
-        "deploy": "wrangler deploy --minify src/index.ts",
-        "format": "biome format --write ."
-    },
-    "dependencies": {
-        "@biomejs/biome": "^1.9.4",
-        "@elysiajs/swagger": "^1.1.6",
-        "badge-maker": "^4.1.0",
-        "elysia": "latest",
-        "enkanetwork.js": "^2.10.5",
-        "wrangler": "^3.90.0"
-    },
-    "devDependencies": {
-        "bun-types": "latest"
-    },
-    "module": "src/index.js"
+  "name": "enkabadges",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "format": "oxfmt"
+  },
+  "dependencies": {
+    "badge-maker": "^6.0.0",
+    "nuqs": "^2.10.2",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "sonner": "^2.0.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "daisyui": "^5.7.47",
+    "nitro": "^3.0.260903-beta",
+    "oxfmt": "^0.72.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
 }
