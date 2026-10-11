@@ -1,25 +1,32 @@
 # EnkaBadges
+
+<p align="center">
+ <img src="https://cdn.mikn.dev/branding/mikan-vtube.png" width="100">
+</p>
+
 Show off your gacha game stats on your GitHub profile!<br>
 Generate shields.io style badges, like this!
 <br>
-![AR](https://enkabadges-api.maamokun.workers.dev/genshin/827014674/ar)
+![AR](https://enkabadges.mikn.dev/genshin/827014674/ar)
 <br>
-![AR](https://enkabadges-api.maamokun.workers.dev/genshin/827014674/abyss?colour=ff7700&style=for-the-badge)
+![AR](https://enkabadges.mikn.dev/genshin/827014674/abyss?colour=ff7700&style=for-the-badge)
 <br>
-Also works with Honkai: Star Rail!
+Also works with Honkai: Star Rail and Zenless Zone Zero!
 <br>
-![AR](https://enkabadges-api.maamokun.workers.dev/hsr/827014674/characters?colour=f66f75&style=social)
+![AR](https://enkabadges.mikn.dev/hsr/827014674/characters?colour=f66f75&style=social)
 <br>
-This is a fully serverless app designed to run on Cloudflare Workers. It could probably be used on other platforms, such as Vercel, with minimal changes.
+![AR](https://enkabadges.mikn.dev/zzz/1300519140/level?colour=ff7700&style=flat-square)
+<br>
+This is a fully serverless app designed to run on Vercel. It could probably be used on other platforms supported by Nitro with minimal changes.
 
 ## Stack
-- [Cloudflare Workers](https://workers.cloudflare.com/)
-- [Elysia](https://elysiajs.com/)
+- [Vercel](https://vercel.com/)
+- [Nitro](https://nitro.build/)
+- [Vite](https://vite.dev/) + [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/) + [daisyUI](https://daisyui.com/)
 
 ## Usage
-Learn more and use the hosted version at https://enkabadges.mikn.dev/ or clone this repo and run<br>
-```bun run deploy```<br>
-to deploy your own version.
+Learn more and use the hosted version at https://enkabadges.mikn.dev/ or clone this repo and import it on Vercel to deploy your own version.
 
 ## Development
 To start the development server run:
@@ -31,6 +38,4 @@ Open http://localhost:3000/ with your browser to see the result.
 
 ## Special Thanks
 - [Enka.Network](https://enka.network/) for providing the player data
-- [enkanetwork.js](https://npm.im/enkanetwork.js) an easy to use API wrapper for Enka.Network
 - [badge-maker](https://npm.im/badge-maker) for badge generation
-- [This article](https://medium.com/@mertenercan/how-to-deploy-elysiajs-app-on-cloudflare-workers-51cc459b078a) for teaching me how to use Elysia on Workers

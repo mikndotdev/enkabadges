@@ -1,3 +1,0 @@
-name = "enkabadges-api"
-compatibility_date = "2025-03-08"
-compatibility_flags = ["nodejs_compat"]
